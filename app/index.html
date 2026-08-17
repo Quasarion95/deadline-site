@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deadline — демо</title>
+<meta name="robots" content="noindex">
+
+<link rel="stylesheet" href="../assets/css/app.css">
+
+<header class="top">
+  <div class="top-in">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="1" y="1" width="30" height="30" rx="10" fill="currentColor" opacity=".07"/>
+        <path d="M16 6.5a9.5 9.5 0 1 1-8.2 4.7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M16 10.6V16l3.6 2.4" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="nm">Deadline</span>
+    </div>
+    <button class="netbtn" id="freshbtn" style="margin-left:auto"><span class="led" style="background:var(--fg-3)"></span><span id="freshlabel">Демо-данные</span></button>
+    <button class="netbtn" id="netbtn"><span class="led"></span><span id="netlabel">Сеть есть</span></button>
+    <div class="roleseg" role="group" aria-label="Роль">
+      <button data-role="boss" aria-pressed="true">Руководитель</button>
+      <button data-role="emp" aria-pressed="false">Сотрудник</button>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+<nav class="tabbar" id="tabbar"></nav>
+<div class="modal" id="modal"><div class="modal-in" id="modalIn"></div></div>
+
+<script src="../assets/js/app.js"></script>
